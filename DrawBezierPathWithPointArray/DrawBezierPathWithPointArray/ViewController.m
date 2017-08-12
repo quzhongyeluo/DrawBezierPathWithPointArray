@@ -30,8 +30,9 @@
         
         [pointsArray addObject:[NSValue valueWithCGPoint:CGPointMake((i + 1) * gap, [self getRandomNumber:20 to:500])]];
         
+        
     }
-    
+    NSLog(@"%@",pointsArray);
     [self drawPathWithPoints:pointsArray];
 }
 
